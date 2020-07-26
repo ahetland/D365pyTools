@@ -1,5 +1,6 @@
 import csv
 
+
 def read_map(file):
     with open(file, newline='') as mapfile:
         reader = csv.reader(mapfile, delimiter=',' quotechar='"')
